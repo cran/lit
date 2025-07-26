@@ -20,9 +20,9 @@ lit_plink(y, file, adjustment = NULL, pop_struct = NULL, verbose = TRUE)
 \value{
 A data frame of p-values where the columns are
  \itemize{
- \item{\code{wlit}: }{LIT using a linear kernel}
- \item{\code{ulit}: }{LIT using a projection kernel}
- \item{\code{alit}: }{Cauchy combination test of the above two LIT implementations.}
+ \item \code{wlit}: LIT using a linear kernel
+ \item \code{ulit}: LIT using a projection kernel
+ \item \code{alit}: Cauchy combination test of the above two LIT implementations
 }
 }
 \description{
@@ -35,7 +35,7 @@ Currently, we implement the linear and projection kernel functions to measure pa
 We then combine the p-values of these implementations using a Cauchy combination test to maximize the number of discoveries.
 This function is suitable for large  datasets (e.g., UK Biobank) in plink format.
  Note that our code to process plink files builds from the
-\code{\link{genio}} R package
+\code{genio} R package
 }
 \examples{
 # set seed

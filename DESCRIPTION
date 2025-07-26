@@ -1,7 +1,7 @@
 Package: lit
 Type: Package
 Title: Latent Interaction Testing for Genome-Wide Studies
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(person("Andrew", "Bass", email ="ajbass@emory.edu", role = c("aut", "cre")),
              person("Michael", "Epstein", email ="mpepste@emory.edu", role = c("aut")))
 Maintainer: Andrew Bass <ajbass@emory.edu>
@@ -20,8 +20,8 @@ LinkingTo: Rcpp, RcppArmadillo, RcppEigen
 Imports: Rcpp (>= 1.0.11), genio, CompQuadForm
 Suggests: testthat (>= 3.0.0), knitr, rmarkdown
 NeedsCompilation: yes
-Packaged: 2023-08-12 18:45:11 UTC; ajbass
+Packaged: 2025-07-26 09:56:36 UTC; andrewbass
 Author: Andrew Bass [aut, cre],
   Michael Epstein [aut]
 Repository: CRAN
-Date/Publication: 2023-08-15 10:10:02 UTC
+Date/Publication: 2025-07-26 10:50:02 UTC

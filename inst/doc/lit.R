@@ -4,11 +4,11 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 
-## ---- eval = FALSE------------------------------------------------------------
-#  # install development version of package
-#  install.packages("devtools")
-#  library("devtools")
-#  devtools::install_github("ajbass/lit")
+## ----eval = FALSE-------------------------------------------------------------
+# # install development version of package
+# install.packages("devtools")
+# library("devtools")
+# devtools::install_github("ajbass/lit")
 
 ## -----------------------------------------------------------------------------
 library(lit)
@@ -37,10 +37,10 @@ Y <- matrix(rnorm(10 * 4), ncol = 4)
 out <- lit_plink(Y, file = file, verbose = FALSE)
 head(out)
 
-## ---- eval = FALSE------------------------------------------------------------
-#  # apply Marginal (SQ/CP) to loaded genotypes
-#  out <- marginal(Y, X)
-#  
-#  # apply Marginal (SQ/CP) to plink file
-#  out <- marginal_plink(Y, file = file, verbose = FALSE)
+## ----eval = FALSE-------------------------------------------------------------
+# # apply Marginal (SQ/CP) to loaded genotypes
+# out <- marginal(Y, X)
+# 
+# # apply Marginal (SQ/CP) to plink file
+# out <- marginal_plink(Y, file = file, verbose = FALSE)
 

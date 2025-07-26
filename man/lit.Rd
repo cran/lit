@@ -18,9 +18,9 @@ lit(y, x, adjustment = NULL, pop_struct = NULL)
 \value{
 A data frame of p-values where the columns are
  \itemize{
- \item{\code{wlit}: }{LIT using a linear kernel}
- \item{\code{ulit}: }{LIT using a projection kernel}
- \item{\code{alit}: }{Cauchy combination test of the above two LIT implementations.}
+ \item \code{wlit}: LIT using a linear kernel
+ \item \code{ulit}: LIT using a projection kernel
+ \item \code{alit}: Cauchy combination test of the above two LIT implementations
 }
 }
 \description{
